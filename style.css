@@ -1,6 +1,5 @@
 body {
     background: hsl(218, 23%, 16%);
-    height: 100vh;
     font-size: 28px;
     font-family: 'Manrope', sans-serif;
 }
@@ -8,15 +7,13 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding-top: 25vh;
 }
 
 .card {
     background-color: hsl(217, 19%, 24%);
     border-radius: 15px;
-    height: 23rem;
     width: 22rem;
 }
 
@@ -34,9 +31,8 @@ body {
     padding-bottom: 1rem;
 }
 
-.divider {
-    width: 295px;
-    height: 16px;
+.svg-container {
+    padding-bottom: 3rem;
 }
 
 .green-circle {
@@ -51,14 +47,13 @@ body {
     align-items: center;
 }
 
-@media screen and (min-width: 1440px){
-    .divider {
-        width: 444px;
-        height: 16px;
-    }
+#getAdvice:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 
+@media screen and (min-width: 1440px){
     .card {
         width: 33rem;
-        height: 20rem;
     }
 }
