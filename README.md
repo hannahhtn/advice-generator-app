@@ -32,5 +32,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://hannahhtn.github.io/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Hannah Ho](https://hannahhtn.github.io/)
